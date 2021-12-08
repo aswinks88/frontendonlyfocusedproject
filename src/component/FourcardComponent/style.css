@@ -9,7 +9,10 @@
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
 }
-
+.info {
+  width: 500px;
+  margin: 0 auto;
+}
 .four-card-section {
   display: grid;
   grid-template-columns: repeat(16, 50px);
@@ -35,8 +38,8 @@
   grid-column: 12/16;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-h3,
-p {
+.four-card h3,
+.four-card p {
   margin-left: 20px;
   font-weight: bold;
 }
