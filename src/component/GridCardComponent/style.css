@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.card {
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+.card-sub {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+}
+.card-body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card-info,
+.card-title {
+  text-align: left;
+  padding: 0 30px;
+}
+.card-subscription h1 {
+  padding: 0;
+  margin: 0;
+}
+.price h1,
+label {
+  display: inline;
+  vertical-align: top;
+  line-height: 28px;
+}
+
+.card-subscription-info,
+.card-subscription {
+  width: 100%;
+  color: white;
+  text-align: left;
+  padding: 35px;
+}
+.card-subscription-info {
+  background-color: #4abebd;
+}
+.card-subscription-info ul {
+  list-style: none;
+  padding: 0;
+}
+.card-subscription-info li {
+  margin: 5px 0;
+}
+.card-subscription {
+  background-color: #2bb3b1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signup-button {
+  text-align: center;
+  max-width: 100%;
+}
+.signup-button button {
+  border: none;
+  width: 100%;
+  padding: 15px;
+  background-color: #bfdf32;
+  color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 25px 0px;
+}
+
+.card-title {
+  color: #2bb3b1;
+}
+.card-info h3 {
+  color: #bfdf32;
+}

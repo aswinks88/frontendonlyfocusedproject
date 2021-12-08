@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.four-card {
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+.four-card-section {
+  display: grid;
+  grid-template-columns: repeat(16, 50px);
+  grid-template-rows: repeat(10, 50px);
+}
+.card1 {
+  grid-row: 1/5;
+  grid-column: 7 /11;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card2 {
+  grid-row: 4/8;
+  grid-column: 2/6;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card3 {
+  grid-row: 6/10;
+  grid-column: 7/11;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card4 {
+  grid-row: 4/8;
+  grid-column: 12/16;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h3,
+p {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.top-line-card1,
+.top-line-card2,
+.top-line-card3,
+.top-line-card4 {
+  height: 4px;
+}
+.title {
+  text-align: left;
+}
+.top-line-card1 {
+  background-color: red;
+}
+.top-line-card2 {
+  background-color: rgb(5, 185, 185);
+}
+.top-line-card3 {
+  background-color: rgb(255, 179, 93);
+}
+.top-line-card4 {
+  background-color: rgb(65, 163, 255);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: 10px;
+}
